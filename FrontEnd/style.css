@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    font-family: 'Sora' ;
+}
+:root{
+    --color-pink: #FEF6F4;
+    --color-white:#ffffff;
+    --color-gray:#E7E7E7;
+    --color-orange: #FFA200;
+    --color-black: #2E2E2E;
+    --color-green:#5C913B;
+    --color-red:#CF3031;
+}
+.color-red{
+    color: var(--color-red);
+}
+.color-yellow{
+    color: var(--color-orange);
+}
+.color-green{
+    color: var(--color-green);
+}
+header{
+    height: 197px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/bg\ la\ pizza.svg);
+}
+footer{
+    text-align: center;
+}
+
+.grid-container{
+    position: relative;
+    min-height: 10.1875rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container-pizza{
+    margin:7rem 1.5rem;
+    border-radius: 25px;
+    background: var(--color-pink);
+}
+
+.pizza-info{
+    text-align: center;
+    color: var(--color-black);
+    padding-top: 4rem;
+    
+}
+
+.grid-img{
+    display: flex;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.botao{
+    background: #FFA200;
+    border-radius: 25px;
+    padding: 8px 32px;
+    text-decoration: none;
+    
+    color: var(--color-black);
+    transform: translateY(55%);
+}
+.grid-item{
+    text-align: center;
+    padding: 0 24px;
+}
+.grid-item h3{
+    font-size: 2rem;
+}
+
+.botao-final{
+    background: #FFA200;
+    color: var(--color-black);
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 8px 32px;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}

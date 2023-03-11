@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: 'Sora';
+}
+:root{
+    --color-pink: #FEF6F4;
+    --color-white:#ffffff;
+    --color-gray:#E7E7E7;
+    --color-orange: #FFA200;
+    --color-black: #2E2E2E;
+    --color-green:#5C913B;
+    --color-red:#CF3031;
+    --color-pink2: #FFD4C9;
+}
+.color-red{
+    color: var(--color-red);
+}
+.color-yellow{
+    color: var(--color-orange);
+}
+.color-green{
+    color: var(--color-green);
+}
+
+/*-------------Header----------------*/
+header{
+    background-image: url(img/bg\ la\ pizza.svg);
+    background-position: center;
+    background-size: cover;
+    height: 12.3125rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------Main-------------------*/
+.menu-pizza{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-black);
+}
+/*----c*/
+.title-pizza{
+    padding: 2.5rem;
+    font-size: 1.375rem;
+    line-height: 1.7325rem;
+    font-weight: 600;
+}
+.container-pizza{
+    background-color: var(--color-pink);
+    margin: 3.5rem 1.5rem;
+    border-radius: 1.56rem;
+    height: 275px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.pizza-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.borda-like{
+    border-radius: 0.875rem;
+    background-color: var(--color-pink2);
+    border: 2px solid #CF3031;
+    padding: 0.6rem;
+}
+.pizza-botao{
+    color: var(--color-black);
+    background: #FFA200;
+    border-radius: 25px;
+    padding: 8px 32px;
+    text-decoration: none;
+}
+
